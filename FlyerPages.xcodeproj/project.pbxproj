@@ -13,6 +13,9 @@
 		B582D4ED1FBF3CE5006C3B7E /* FlyerPages.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B582D4EB1FBF3CE5006C3B7E /* FlyerPages.xcdatamodeld */; };
 		B582D4EF1FBF3CE5006C3B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B582D4EE1FBF3CE5006C3B7E /* Assets.xcassets */; };
 		B582D4F21FBF3CE5006C3B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B582D4F01FBF3CE5006C3B7E /* LaunchScreen.storyboard */; };
+		B582D4FA1FBF3DAD006C3B7E /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D4F91FBF3DAD006C3B7E /* Flyer.swift */; };
+		B582D4FC1FBF3E1F006C3B7E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D4FB1FBF3E1F006C3B7E /* PageViewController.swift */; };
+		B582D4FE1FBF3E97006C3B7E /* FlyerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582D4FD1FBF3E97006C3B7E /* FlyerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B582D4EE1FBF3CE5006C3B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B582D4F11FBF3CE5006C3B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B582D4F31FBF3CE5006C3B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B582D4F91FBF3DAD006C3B7E /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
+		B582D4FB1FBF3E1F006C3B7E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		B582D4FD1FBF3E97006C3B7E /* FlyerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				B582D4F01FBF3CE5006C3B7E /* LaunchScreen.storyboard */,
 				B582D4F31FBF3CE5006C3B7E /* Info.plist */,
 				B582D4EB1FBF3CE5006C3B7E /* FlyerPages.xcdatamodeld */,
+				B582D4F91FBF3DAD006C3B7E /* Flyer.swift */,
+				B582D4FB1FBF3E1F006C3B7E /* PageViewController.swift */,
+				B582D4FD1FBF3E97006C3B7E /* FlyerViewController.swift */,
 			);
 			path = FlyerPages;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B582D4FA1FBF3DAD006C3B7E /* Flyer.swift in Sources */,
+				B582D4FE1FBF3E97006C3B7E /* FlyerViewController.swift in Sources */,
+				B582D4FC1FBF3E1F006C3B7E /* PageViewController.swift in Sources */,
 				B582D4ED1FBF3CE5006C3B7E /* FlyerPages.xcdatamodeld in Sources */,
 				B582D4E71FBF3CE5006C3B7E /* ViewController.swift in Sources */,
 				B582D4E51FBF3CE5006C3B7E /* AppDelegate.swift in Sources */,
